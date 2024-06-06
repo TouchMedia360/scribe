@@ -56,7 +56,7 @@
     "psr-4": {
       "Knuckles\\Scribe\\": "src/",
       "Knuckles\\Pastel\\": "pastel/src/"
-    }
+    },
     "files": [
       "pastel/helpers.php"
     ]
