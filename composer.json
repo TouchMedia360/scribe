@@ -31,7 +31,16 @@
     "ramsey/uuid": "^3.8|^4.0",
     "shalvah/clara": "^2.6",
     "symfony/var-exporter": "^4.0|^5.0",
-    "symfony/yaml": "^4.0|^5.0"
+    "symfony/yaml": "^4.0|^5.0",
+
+    "mnapoli/silly": "~1.0",
+    "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
+    "illuminate/view": "^5.8|^6.0|^7.0|^8.0",
+    "mnapoli/front-yaml": "^1.7.0",
+    "windwalker/renderer": "3.*",
+    "ext-json": "*",
+    "shalvah/clara": "^2.0.0"
+
   },
   "require-dev": {
     "brianium/paratest": "^4.0",
@@ -47,8 +56,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Knuckles\\Scribe\\": "src/"
+      "Knuckles\\Scribe\\": "src/",
+      "Knuckles\\Pastel\\": "pastel/src/"
     }
+    "files": [
+      "pastel/helpers.php"
+    ],
   },
   "autoload-dev": {
     "psr-4": {
