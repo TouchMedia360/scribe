@@ -24,11 +24,11 @@
     "illuminate/console": "^5.8|^6.0|^7.0|^8.0",
     "illuminate/routing": "^5.8|^6.0|^7.0|^8.0",
     "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
+    "symfony/console": "^4.0|^5.0"
     "league/flysystem": "^1.0",
     "mpociot/reflection-docblock": "^1.0.1",
     "nunomaduro/collision": "^3.0|^4.0|^5.0",
     "ramsey/uuid": "^3.8|^4.0",
-    "shalvah/clara": "^2.6",
     "symfony/var-exporter": "^4.0|^5.0",
     "symfony/yaml": "^4.0|^5.0",
 
@@ -54,10 +54,12 @@
   "autoload": {
     "psr-4": {
       "Knuckles\\Scribe\\": "src/",
-      "Knuckles\\Pastel\\": "pastel/src/"
+      "Knuckles\\Pastel\\": "pastel/src/",
+      "Shalvah\\Clara\\": "clara/src/"
     },
     "files": [
-      "pastel/helpers.php"
+      "pastel/helpers.php",
+      "clara/helpers.php"
     ]
   },
   "autoload-dev": {
