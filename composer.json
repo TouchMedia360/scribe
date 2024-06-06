@@ -34,11 +34,9 @@
     "symfony/yaml": "^4.0|^5.0",
 
     "mnapoli/silly": "~1.0",
-    "illuminate/support": "^5.8|^6.0|^7.0|^8.0",
     "illuminate/view": "^5.8|^6.0|^7.0|^8.0",
     "mnapoli/front-yaml": "^1.7.0",
     "windwalker/renderer": "3.*",
-    "ext-json": "*",
     "shalvah/clara": "^2.0.0"
 
   },
@@ -61,7 +59,7 @@
     }
     "files": [
       "pastel/helpers.php"
-    ],
+    ]
   },
   "autoload-dev": {
     "psr-4": {
@@ -88,7 +86,8 @@
     "process-timeout": 600
   },
   "replace": {
-    "mpociot/laravel-apidoc-generator": "*"
+    "mpociot/laravel-apidoc-generator": "*",
+    "mpociot/documentarian": "*"
   },
   "funding": [
     {
